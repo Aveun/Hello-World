@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+}
+#cont{
+    margin: 200px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.text-count {
+    width: 95%;
+    font-family: serif;
+    font-size: 5px;
+}
+.text {
+    text-align: left;
+    padding: 20px;
+    color: hsl(0, 0%, 95%);
+}
+.item1 {
+    width: 200px;
+    padding: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+.item2 {
+    width: 200px;
+    padding: 10px;
+    background-color: hsl(184, 100%, 22%);
+}
+.item3 {
+    width: 200px;
+    padding: 10px;
+    background-color: hsl(179, 100%, 13%);
+}
+#img {
+    margin-right: 100px;
+    padding: 20px;
+}
+h2 {
+    color: white;
+    margin-right: 100px;
+}
+@media (max-width: 1440px) {
+    #cont {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+section {
+    display: flex;
+    align-items: center;
+}
+.button1 {
+    width: 35px;
+    padding: 2px;
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    font-size: 8px;
+    transition: 1px;
+}
+.button1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-radius: 1px solid white;
+    border-color: white;
+}
+.button2 {
+    width: 35px;
+    padding: 2px;
+    color: hsl(184, 100%, 22%);
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    font-size: 8px;
+    transition: 1px;
+}
+.button2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-radius: 1px solid white;
+    border-color: white;
+}
+.button3 {
+    width: 35px;
+    padding: 2px;
+    color: hsl(179, 100%, 13%);
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    font-size: 8px;
+    transition: 1px;
+}
+.button3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-radius: 1px solid white;
+    border-color: white;
+}
